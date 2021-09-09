@@ -1,0 +1,36 @@
+{
+  "name": "NAGP_Protractor_Assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "update": "webdriver-manager update",
+    "updateie": "webdriver-manager update --ie",
+    "updateff": "webdriver-manager update --firefox",
+    "start": "webdriver-manager start",
+    "debug": "protractor debug conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cache": "^2.3.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "clean": "^4.0.2",
+    "cucumber": "^6.0.5",
+    "date-format": "^3.0.0",
+    "force": "0.0.3",
+    "moment": "^2.26.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-pretty": "^6.0.0",
+    "properties-reader": "^2.0.0",
+    "protractor": "^7.0.0",
+    "protractor-beautiful-reporter": "^1.3.6",
+    "protractor-cucumber-framework": "^6.2.1",
+    "protractor-cucumber-steps": "^1.3.8"
+  }
+}

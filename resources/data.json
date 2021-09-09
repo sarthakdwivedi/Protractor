@@ -1,0 +1,26 @@
+{
+   "Customers":  [
+        {"firstName":"Sachin", "lastName":"Tendulkar", "zipcode":"101010", "currency":"Rupee"}, 
+        {"firstName":"Rahul", "lastName":"Dravid", "zipcode":"101010", "currency":"Rupee"},
+        {"firstName":"Harry", "lastName":"Potter", "zipcode":"E725JB", "currency":"Rupee"}
+       
+    ],
+
+    "DepositTransaction":  [
+        {"transactionAmount":100}, 
+        {"transactionAmount":110}
+    ]
+
+    ,
+
+    "WithdrawalTransaction":  [
+        {"transactionAmount":50}, 
+        {"transactionAmount":55}
+    ]
+
+    ,
+
+    "InvalidWithdrawalTransaction":  [
+        {"transactionAmount":5000}
+    ]
+}
